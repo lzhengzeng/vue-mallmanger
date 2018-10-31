@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import '@/assets/index.css'
+import HttpTool from '@/pulign/http.js'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(HttpTool)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
